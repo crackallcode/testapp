@@ -1,0 +1,78 @@
+.App{
+    text-align: center;
+}
+
+.h1 {
+color:red;
+}
+
+
+/* create post is below */
+
+.createpost{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uploadPost{
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: 500px;
+    border: 2px solid black; /*match the color of the nav bar*/
+    ;
+}
+
+.at{
+    width: 90%;
+    height:100px;
+    margin:10px;
+    align-items: center;
+    padding-left: 10px;
+}
+
+/* Main Page CSS */
+
+.area{
+    width: 90%;
+    height:auto;
+    margin:10px;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.mainPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px);
+    padding-top: 100px;
+    
+}
+.postContainer{
+    background-color: lightgray;
+    height: 100vh;
+    width: 50%;
+    box-shadow: 1px 1px 8px black;
+    flex-direction: column;
+    display: flex;
+    max-width: 50%;
+}
+
+.post{
+    width: auto;
+    margin-top: 20px;
+    max-height: 400px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-direction: column;
+    padding-left: 20px;
+
+}
+
+.post p{
+    width: 80%;
+}
