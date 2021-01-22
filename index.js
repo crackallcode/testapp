@@ -30,10 +30,10 @@ app.use(express.json());
 /*login*/
  
 const dbLog = mysql.createConnection({
-  user: "root",
+  user: "",
   host: "localhost",
-  password: "password",
-  database: "Users"
+  password: "",
+  database: ""
 })
 
 app.post("/register", (req, res) => {
